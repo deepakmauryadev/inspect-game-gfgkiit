@@ -12,7 +12,7 @@ export default function Page() {
   const router = useRouter();
 
   const handleClick = () => {
-    router.push("/asdfg");
+    router.push("https://gfgkiit.in");
   }
   
   useEffect(() => {

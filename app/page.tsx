@@ -50,7 +50,7 @@ export default function Page() {
         </div>
         <div className="flex flex-col self-center items-center">
           <SplitText text="LEVEL 0" className="font-hero text-4xl font-black text-lime-400" />
-          <SplitText text="Find the hidden URL to proceed to the next level." className="text-lg mt-2 text-zinc-400" delay={20} />
+          {/*<SplitText text="Find the hidden URL to proceed to the next level." className="text-lg mt-2 text-zinc-400" delay={20} /> **/}
           {hintVisible && (<p className="mt-4 text-green-400">Hint: Try to find hidden element!</p>)}
         </div>
         <div className="flex justify-evenly basis-full">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { PropsWithChildren } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: "GFGKIIT",
@@ -12,6 +13,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
     <html lang="en" className="block h-full w-full">
       <body className="block h-full w-full bg-[url(/bg.webp)] bg-repeat text-zinc-200 overflow-x-hidden">
         {children}
+        <Analytics />
       </body>
     </html>
   );
